@@ -35,3 +35,8 @@ console.log(Bool); // true
 // 0 => false
 // "" => false
 // "anytext" => true
+
+let anyNum = 55
+let StringNum = String(anyNum)
+console.log(StringNum); // 55
+console.log(typeof StringNum); // String
