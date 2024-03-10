@@ -22,5 +22,5 @@ console.log(undefined == 0);
 console.log(undefined < 0);
 console.log(undefined <= 0);
 
-// Strickly checks (===) {Checks the numberds as well as their datatypes}
+// Strickly checks (===) {Checks the numbers as well as their datatypes}
 console.log("2" === 2); // false
