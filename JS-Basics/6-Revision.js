@@ -37,7 +37,6 @@ Name1 = "Uzair"
 console.log(Name1);
 console.log(Name2);
 
-
 // Heap(non-primitive) Pass by reference(refernce/original object is provided)
 
 let UserDetails = {
