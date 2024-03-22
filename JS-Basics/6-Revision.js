@@ -28,7 +28,7 @@ const myfunction = function(){
 // -----------------------------------------------------------
 
 // Stack vs Heap Memory
-// Stack(primitive) Pass by vale(copy of object is provided)
+// Stack(primitive) Pass by value(copy of object is provided)
 
 let Name1 = "Mudassir"
 let Name2 = Name1;
