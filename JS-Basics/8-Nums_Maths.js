@@ -29,3 +29,8 @@ console.log(Math.max(2, 3, 7, 6));
 console.log(Math.random()); // gives the value b/w 0 and 1
 console.log((Math.random() * 10)+ 1);
 console.log(Math.floor((Math.random() * 10)+ 1));
+
+min = 10
+max = 20
+
+console.log(Math.floor((Math.random) * (max - min + 1) + min));
