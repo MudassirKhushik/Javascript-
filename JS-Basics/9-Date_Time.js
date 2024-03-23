@@ -13,3 +13,5 @@ console.log(typeof myDate);
 // let newDate = new Date(2024, 0, 15, 5, 3) // Mon Jan 15 2024 05:03:00 GMT+0000 (Coordinated Universal Time)
 let newDate = new Date("01-15-2024")
 console.log(newDate.toLocaleString()); // 1/15/2024, 12:00:00 AM
+
+// Some Changes committed
