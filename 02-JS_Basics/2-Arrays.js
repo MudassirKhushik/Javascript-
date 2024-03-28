@@ -18,8 +18,8 @@ console.log(Array.isArray("Mudassir")); // False
 console.log(Array.from("Mudassir")); // Converts into Array
 console.log(Array.from({name:"ALI"})); // Provides empty Array because we have to tell him first, either convert "Key" or "Value" in Array
 
-// let score1=100
-// let score2=200
-// let score3=300
+let score1=100
+let score2=200
+let score3=300
 
-// console.log(Array.of(score1, score2, score3));
+console.log(Array.of(score1, score2, score3));
