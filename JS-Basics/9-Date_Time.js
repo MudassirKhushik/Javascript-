@@ -14,3 +14,16 @@ console.log(typeof myDate);
 let newDate = new Date("01-15-2024")
 console.log(newDate.toLocaleString()); // 1/15/2024, 12:00:00 AM
 
+let myTimestamp=Date.now()
+console.log(myTimestamp);
+console.log(newDate.getTime());
+console.log(Math.floor(Date.now()/1000));
+
+let TodayDate=new Date()
+console.log(TodayDate);
+console.log(TodayDate.getMonth() +1); // It starts from 0, that's why 1 is added to it.
+console.log(TodayDate.getDay());
+TodayDate.toLocaleString('default',{
+    weekday:"long",
+    hour:"2-digit"
+})
