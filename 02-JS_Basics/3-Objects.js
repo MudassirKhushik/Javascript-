@@ -18,3 +18,8 @@ console.log(JSuser.name);
 console.log(JSuser["email"]);
 console.log(JSuser["full name"]);
 console.log(JSuser[mySym]);
+
+JSuser.email= "Khushik@google.com" // Changed
+Object.freeze(JSuser); // It id locked now and will not be changed.
+JSuser.email= "Khushik@chatgp.com"
+console.log(JSuser);
