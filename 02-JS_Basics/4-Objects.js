@@ -31,3 +31,32 @@ const obj4 = Object.assign({}, obj1, obj2, obj3)
 // Here the empty object works as a target and other objects work as a source. 
 // All the sources are stored in the target(an empty or new object).
 console.log(obj4);
+// Spread method to print the objects.
+const obj={...obj1,...obj2}
+console.log(obj);
+
+// Data from Database 
+const Users=[
+    {
+        id:"1001",
+        name:"Mudassir",
+        Roll_no:"23sw074"
+    },
+    {
+        id:"1002",
+        name:"Uzair",
+        Roll_no:"23sw053"
+    },
+    {
+        id:"1003",
+        name:"Mahrus",
+        Roll_no:"23sw080"
+    }
+]
+
+console.log(Users[1].name);
+
+console.log(Object.keys(tinderUser));
+console.log(Object.values(tinderUser));
+console.log(Object.entries(tinderUser));
+console.log(tinderUser.hasOwnProperty('isLoggedIn'));
