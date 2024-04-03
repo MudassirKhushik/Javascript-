@@ -1,4 +1,4 @@
-// Singleton 
+// Singleton objects 
 // const tinderUser = new Object{}
 
 // Object Literals
