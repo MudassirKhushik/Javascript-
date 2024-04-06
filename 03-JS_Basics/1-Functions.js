@@ -36,7 +36,24 @@ function CalculateItems(...num1){ // rest Operator(used to add undefined argumen
 }
 CalculateItems(200, 300, 450, 8000)
 
+// Passing an Object as an Argument
 const user = {
     username:"Mudassir",
-    pice:299
+    prices:299
 }
+function handleObject(anyObj){
+    console.log(`Username is ${anyObj.username} and price is ${anyObj.price}`); // It will return undefined value if you write wrong name
+}
+handleObject(user)
+handleObject({
+    username:"Sam",
+    price:599
+})
+
+// Passing an Array as an Argument
+const MyArr=[200, 300, 400, 500]
+function handelArray(anyArray){
+    return anyArray[0];
+}
+console.log(handelArray(MyArr));
+console.log(handelArray([100,200,300]));
