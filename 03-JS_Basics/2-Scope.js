@@ -24,3 +24,4 @@ function one(){
     Two()
 }
 one()
+// The inner function can access the attributes of outer function but the outer one can't access the inner ones attributes. 
