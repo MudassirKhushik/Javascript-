@@ -7,7 +7,8 @@ const uni_std=["Mahrus","Uzair","Mudassir"]
 // const all_std=uni_std.concat(school_std)
 // console.log(all_std); // All Elements in one Array
 
-// const all_new_std=[...uni_std,...school_std]
+// const all_new_std=[...uni_std, ...school_std]
+// '...' is a spread Operator and it helps in combining more than two arrays.
 // console.log(all_new_std); // Spreads every element
 
 const nested_array=[1, 2, 3, [4,5,6], 7, [1,2[3,4]]]
