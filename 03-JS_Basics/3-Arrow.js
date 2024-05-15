@@ -24,3 +24,34 @@ console.log(this);
 //     console.log(this.user1name); // undefined because `this` is not used in functions 
 // }
 // one()
+
+// const one = function(){
+//     const user1name = "Khsuhik"
+//     console.log(this);
+//     // Here this gives many values
+//     console.log(this.user1name); // undefined because `this` is not used in functions 
+  
+// } 
+// one()
+
+// Arrow Function
+const one = () => {
+//     const user1name = "Khsuhik"
+//     console.log(this);
+//     // Here this gives many values
+//     console.log(this.user1name); // undefined because `this` is not used in functions 
+    const userName = "Khsuhik"
+    console.log(this);    
+} 
+one()
+
+// const addTwoNums = (num1, num2) => {
+//     return num1 + num2
+// }
+
+// Implicit Return 
+const addTwoNums = (num1, num2) => (num1 + num2)
+addTwoNums(3, 4)
+
+const display = () => ({username : "Mudassir"})
+console.log(display());
