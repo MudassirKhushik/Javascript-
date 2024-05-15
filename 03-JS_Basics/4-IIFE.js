@@ -9,7 +9,7 @@
 
 (() => {
     // Arrow function IIFE
-    console.log("2 - DB Conected");
+    console.log("2 - DB Connected");
 })();
 
 ((name) => {
