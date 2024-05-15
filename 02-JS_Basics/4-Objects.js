@@ -1,5 +1,6 @@
 // Singleton object
-// const tinderUser = new Object{}
+// const tinderUser = new Object()
+// Non-Singleton Object => const tinderUser = {}
 
 // Object Literals
 const tinderUser = {}
