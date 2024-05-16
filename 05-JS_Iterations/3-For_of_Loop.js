@@ -28,3 +28,11 @@ for (const [keys , values] of map) {
 // for of loop prints the values in array, but `[var1 , var2]` returns the values(no Array)
 
 // For of Loop is not valid for objects
+// const myObj = {
+//     py : "Python",
+//     cpp : "C++",
+//     java : "Java"
+// }
+// for (const [keys , values] of myObj) {
+//     console.log(keys , "=" , values);   
+// }
