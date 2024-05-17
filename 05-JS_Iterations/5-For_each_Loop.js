@@ -13,10 +13,25 @@ const Arr = ["Pakistan", "India", "Nepal", "Japan", "Bangladesh"]
 // }
 // Arr.forEach(printArr)
 
-// Arr.forEach( (items, index, arr) => {
-//     console.log(items , index, arr);
-// })
+Arr.forEach( (items, index, arr) => {
+    console.log(items , index, arr);
+})
 
-// Arr.forEach(element => {
-//     console.log(element);
-// });
+// Objects in an Array
+const MyArr = [
+    {
+        Name : "Python",
+        File : "py"
+    },
+    {
+        Name : "JavaScript",
+        File : "js"
+    },
+    {
+        Name : "Ruby",
+        File : "rb"
+    }
+]
+MyArr.forEach( (items) => {
+    console.log(items.Name);
+})
