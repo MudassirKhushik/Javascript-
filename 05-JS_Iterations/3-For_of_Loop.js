@@ -1,4 +1,5 @@
 // For of Loop
+// For of Loop gives the values directly.
 // ["","",""]
 // [{},{},{}]
 
