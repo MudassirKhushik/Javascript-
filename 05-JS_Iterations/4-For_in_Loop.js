@@ -1,5 +1,5 @@
 // For In Loop is Used for objects as well as Arrays
-// It can give us the keys and values both
+// It gives us the keys(only)
 const myObj = {
     py : "Python",
     cpp : "C++",
@@ -7,4 +7,9 @@ const myObj = {
 }
 for (const keys in myObj) {
     console.log(`${keys} shortcut for ${myObj[keys]}`);   
+}
+
+const myArray = ["py", "cpp", "java", "rb", "js"]
+for (const key in myArray) {
+    console.log(key);
 }
