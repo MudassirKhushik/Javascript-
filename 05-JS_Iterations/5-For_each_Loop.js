@@ -1,5 +1,6 @@
 // For-Each Loop
 const Arr = ["Pakistan", "India", "Nepal", "Japan", "Bangladesh"]
+// For Each Loop doesn't return any Value, so it can't be stored in any avriable 
 // Arr.forEach( function (val) {
 //     console.log(val);
 // })
