@@ -13,6 +13,7 @@
 <script>
     // Add, Edit and Remove Element
 
+    // Add Elements
     function addLanguage(langName){
         const li = document.createElement('li');
         li.innerHTML = `${langName}`
@@ -29,5 +30,17 @@
     }
     addOptiLanguage("C++")
     addOptiLanguage("golang")
+
+    // Edit Elements
+    const secondLang = document.querySelector("li:nth-child(2)");
+    // secondLang.innerHTML = "Swift"
+    const newli = document.createElement('li')
+    newli.innerText = "Swift"
+    secondLang.replaceWith(newli)
+
+    // Other Method to Edit
+    const firstlang = document.querySelector('li:nth-child(1)');
+    firstlang.outerHTML = '<li>Mojo</li>'
+    
 </script>
 </html>
