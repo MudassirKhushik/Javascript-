@@ -1,5 +1,5 @@
-const buttons = document.querySelector('button')
-const body = document.querySelector('body')
+const buttons = document.querySelector('button');
+const body = document.querySelector('body');
 
 buttons.forEach(function(button){
     button.addEventListner('click', function(e){
@@ -18,5 +18,5 @@ buttons.forEach(function(button){
         if(e.target.id === 'black'){
             body.style.backgroundColor = e.target.id
         }
-    })
-})
+    });
+});
