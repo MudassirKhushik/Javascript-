@@ -10,6 +10,9 @@
     margin: 10px 5px;
     cursor: pointer;
 }
+h1{
+    color: yellow;
+}
 #green{
     background-color: green;
 }
