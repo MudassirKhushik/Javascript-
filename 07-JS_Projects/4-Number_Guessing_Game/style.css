@@ -2,3 +2,36 @@
     background-color: black;
     color: white;
 }
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+button, input[type="submit"] {
+    font-size: 1em;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    cursor: pointer;
+}
+
+.guesses, .lastResult, .lowOrHigh {
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 150px;
+}
