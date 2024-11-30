@@ -1,3 +1,4 @@
+// How the data is stored in the memory and it is accessed 
 // Primitive
 // 7 Types : Number, String, BigInt, Boolean, null, undefined, symbol
 
