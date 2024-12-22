@@ -7,3 +7,16 @@ console.log(total);
 
 total = myArray.reduce( (acc,curr) => acc + curr,0)
 console.log(total);
+
+const shoppingCart = [
+    {
+        itemName : "JS course",
+        price : 2999
+    },
+    {
+        itemName : "PY course",
+        price : 1999
+    }
+]
+const priceToPay = shoppingCart.reduce( (acc, item) => acc + item.price, 0)
+console.log(priceToPay);
